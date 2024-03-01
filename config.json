@@ -1,0 +1,84 @@
+{
+    "name": "Play maze with your friend! Use W, A, S, D and arrow keys to navigate to the same color block to win!",
+    "ip": "0.0.0.0",
+    "port": 8765,
+    "buttons": [{
+        "name": "restart",
+        "label": "RESTART",
+        "style": { "background": "white", "border-color": "black" }
+    }],
+    "references": [
+        {
+            "definition": "defs/wall1.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "theta": 0
+            }
+        },   
+        {
+            "definition": "defs/wall2.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/end1.json",
+            "style": { "fill": "lightgreen", "stroke": "black" },
+            "position": {
+                "x": -400,
+                "y": 200,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/end2.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": {
+                "x": 500,
+                "y": 200,
+                "theta": 0
+            }
+        }
+    ],  
+    "invisibles": [
+        {
+            "definition": "defs/coordinator.json",
+            "rendered": false
+        }   
+    ],  
+    "agents": [
+        {
+            "definition": "defs/robot.json",
+            "style": { "fill": "lightgreen", "stroke": "black" },
+            "position": {
+                "x": -500,
+                "y": 250,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/robot2.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": {
+                "x": 500,
+                "y": 250,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/text.json",
+            "style": { "fill": "lightgreen", "stroke": "black" },
+            "position": {
+                "x": -700,
+                "y": 0,
+                "theta": 0
+            }
+        }
+    ],
+    "statics": []
+}
