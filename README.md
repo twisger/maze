@@ -7,7 +7,7 @@ The goal of this project is to provide an interactive maze game where players ca
 
 ## Installation and Running
 To install and run the code, follow these steps:  
-1. Install [enviro](https://github.com/klavinslab/enviro).
+1. Install [enviro v1.61](https://github.com/klavinslab/enviro).
 2. Clone the repository to your local machine.
 3. Navigate to the project directory and run `make`.
 4. run `esm start`  
